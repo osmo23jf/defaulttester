@@ -75,86 +75,75 @@
       </nav>
     </header>
 
-    <section class="omoss-main">
-      <img src="/img/Företagetgroup.jpeg" />
-      <div class="omoss-text">
-        <h1>vår historia</h1>
+    <section class="house-hero">
+      <img src="/img/Villa Lillabo.jpeg" alt="Villa Lillabo" />
+      <div class="hero-text">
+        <h1>Villa Lillabo</h1>
+        <h2>Vår basmodell – ett välplanerat och hållbart hem</h2>
       </div>
     </section>
 
-    <section class="about us-main">
-      <div class="about-us-container">
-        <div class="omoss-info">
-          <h1>Vår Byggresa</h1>
-          <hr class="title-line" />
-          <p class="cursive-text">
-            Allt började 2010 med att vi byggde ett traditionellt typhus. Det
-            blev dyrt – 3 miljoner – men det största problemet var den dåliga
-            luften på grund av styrd ventilation och täta väggar. När vi
-            flyttade därifrån började vi fundera på hur vi egentligen ville bo.
-            Efter mycket skissande, läsande och inspiration från äldre
-            byggtekniker föddes vår egen version av Villa Lillabo. Vi är inte
-            snickare, men händiga och kreativa. Med hjälp av en byggingenjör tog
-            vi fram ritningar, satte upp några grundregler (vi skulle
-            fortfarande vara gifta efter bygget!) – och började bygga själva. Vi
-            valde hållbara material och använde enkla verktyg: batteridrivna
-            maskiner, stegar och mycket tålamod. Allt gick inte som planerat. Vi
-            fick göra om några delar, som trappan och hallens förvaring. Köket
-            tog tid att få rätt – lösningen blev en köksö på hjul för mer
-            flexibilitet. Idag är vi otroligt nöjda. Huset är mysigt för oss två
-            men rymmer hela storfamiljen när det behövs. Gästerna bor i en liten
-            gäststuga på tomten – bara uppvärmd när den används.
-          </p>
+    <div class="house-container">
+      <section class="house-info">
+        <h2>Om Villa Lillabo</h2>
+        <p>
+          Villa Lillabo är vår basmodell, ett välplanerat hem med **80 kvm
+          boyta** inomhus och **50 kvm vinterträdgård**. En enorm takterrass
+          över växthuset ger stor valmöjlighet att umgås både ute, inne och
+          mittemellan. För trots sina relativt få kvadratmeter är det här ett
+          hem där de sociala ytorna är rejäla.
+        </p>
+
+        <div class="popup-buttons">
+          <button class="btn" onclick="openPopup('floorplan')">
+            Visa Planlösning
+          </button>
+          <button class="btn" onclick="openPopup('facade')">
+            Visa Fasadritning
+          </button>
         </div>
+
+        <!-- Popup Modal -->
+        <div id="popup" class="popup-overlay">
+          <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <img id="popup-img" src="" alt="Popup Image" />
+          </div>
+        </div>
+      </section>
+
+      <div class="house-gallery">
+        <img src="/img/Villa Lillabo1.jpeg" alt="House Image 1" />
+        <img src="img/Villa Lillabo2.jpeg" alt="House Image 2" />
+        <img src="/img/Villa Lillabo3.jpeg" alt="House Image 4" />
+        <img src="/img/Villa Lillabo4.jpeg" alt="House Image 5" />
+      </div>
+    </div>
+
+    <section class="faq">
+      <h2>Vanliga Frågor (FAQ)</h2>
+      <div class="faq-item">
+        <h3>Vad ingår i paketet?</h3>
+        <p>
+          Allt material du behöver för att bygga ditt hus med små undantag.
+          Ytskikten på insidan (tapeter och färg) ingår inte.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3>Kan jag välja mitt eget kök?</h3>
+        <p>
+          Ja! Vi vill bygga ett hållbart hus och ger dig möjligheten att välja
+          ett begagnat kök eller ett du byggt själv.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3>Vad gäller om vi behöver hjälp under bygget?</h3>
+        <p>
+          Vi erbjuder support både på plats vid lämpliga tillfällen i
+          byggprocessen och via digitala möten.
+        </p>
       </div>
     </section>
-
-    <section class="team-section">
-      <div class="team-title">
-        <hr />
-        <h1>Vårt Team</h1>
-        <hr />
-      </div>
-
-      <div class="team-grid">
-        <div class="team-card">
-          <img src="/img/chatrine.jpeg" alt="Chatrine" />
-          <h3>Chatrine</h3>
-          <p>
-            VD och skapare av våra hus – hon har koll på materialen och svar på
-            de flesta frågor du har.
-          </p>
-        </div>
-
-        <div class="team-card">
-          <img src="/img/johan.jpeg" alt="Johan" />
-          <h3>Johan</h3>
-          <p>
-            Vår tekniska klippa – hittar smarta lösningar och är med och bygger
-            med både hjärna och hand.
-          </p>
-        </div>
-
-        <div class="team-card">
-          <img src="/img/oscar.jpeg" alt="Oscar" />
-          <h3>Oscar</h3>
-          <p>
-            Tekniskt ansvarig på plats – ser till att byggprocessen flyter och
-            att allt är på rätt plats.
-          </p>
-        </div>
-
-        <div class="team-card">
-          <img src="/img/sanne.jpeg" alt="Sanne" />
-          <h3>Sanne</h3>
-          <p>
-            Hjälper till vid mässor och presentationer – pedagogisk, positiv och
-            alltid redo att bidra.
-          </p>
-        </div>
-      </div>
-    </section>
-
     <footer>
       <h2>Kontakt: info@grimmegjerde.com | Telefon: +46 07 21 599 199</h2>
       <div class="social-links">
